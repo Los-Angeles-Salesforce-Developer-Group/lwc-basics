@@ -13,14 +13,14 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
-            <property name="prop1" type="String" />
+            <property name="message" type="String" default="Default message" />
             <objects>
                 <object>Account</object>
                 <object>Opportunity</object>
             </objects>
         </targetConfig>
         <targetConfig targets="lightning__AppPage, lightning__HomePage">
-            <property name="prop2" type="Boolean" />
+            <property name="message" type="String" default="Default message" />
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
